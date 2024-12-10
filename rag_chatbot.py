@@ -178,33 +178,4 @@ for chunk in relevant_chunks:
     print(f"Distance: {chunk['distance']}")
     print()
 
-query = "Ai đang là Tổng bí thư Đảng Cộng Sản Việt Nam"
-answer, relevant_chunks = query_documents(query)
 
-print(f"Query: {query}\n\n-----\n")
-print(f"Generated answer: {answer}\n\n-----\n")
-print("Relevant chunks:")
-for chunk in relevant_chunks:
-    print(f"Document: {chunk['document']}")
-    print(f"Chunk: {chunk['chunk']}".replace("\n", ""))
-    print(f"Distance: {chunk['distance']}")
-    print()
-
-!pip install streamlit
-!pip install pyngrok
-
-# Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
-# import streamlit as st
-# 
-# # Ví dụ giao diện Streamlit
-# st.title("Chatbot Tư vấn và Chăm sóc Khách hàng")
-# st.write("Chào mừng bạn đến với Chatbot!")
-# 
-# user_input = st.text_input("Hãy nhập câu hỏi của bạn:")
-# 
-# if user_input:
-#     # Trả lời mẫu
-#     st.write(f"Chatbot: Cảm ơn bạn đã hỏi: {user_input}")
-
-!streamlit run app.py & npx localtunnel --port 8501
