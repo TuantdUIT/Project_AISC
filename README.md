@@ -33,7 +33,6 @@ The pipeline includes:
 | Library | Purpose |
 |---------|---------|
 | **transformers** | Load and use the `google/gemma-2-2b-it` model for text generation. |
-| **sentence-transformers** | Generate sentence embeddings for semantic similarity. |
 | **faiss-cpu** | Vector database for fast nearest neighbor search. |
 | **PyPDF2** | Extract text from PDF documents. |
 | **nltk** | Sentence tokenization. |
