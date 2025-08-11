@@ -1,6 +1,6 @@
 # 📚 RAG ChatBot in E-commerce
 
-# My Team
+# My Team: Cao Minh Tri - Tran Duong Tuan
 ![image alt](https://github.com/TuantdUIT/Project_AISC/blob/e34ce0ba5fb25b025aecff0c2319725ed2cd586f/DSC_3255.JPG)
 ---
 # Link demo: https://www.youtube.com/watch?v=21EZ339xix8
