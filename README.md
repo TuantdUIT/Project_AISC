@@ -3,6 +3,9 @@
 # My Team
 ![image alt](https://github.com/TuantdUIT/Project_AISC/blob/e34ce0ba5fb25b025aecff0c2319725ed2cd586f/DSC_3255.JPG)
 ---
+# Link demo
+![Demonstration](https://www.youtube.com/watch?v=21EZ339xix8)
+---
 ## 1. Project Overview
 This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that can answer user queries by combining **semantic search** with a **large language model**.  
 The system retrieves the most relevant document chunks from a PDF knowledge base and uses a generative AI model to produce context-aware answers.
